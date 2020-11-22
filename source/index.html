@@ -1,12 +1,154 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>HTML Academy: Погнали</title>
   </head>
-  <body>
+  <body class="page__body">
+    <header class="page-header">
+      <div class="page-wrapper">
+        <a class="page-header__logo">
+          <img src="img/logo_mobile_3.svg" width="96" height="15" alt="Логотип «Погнали»">
+        </a>
+        <nav class="main-nav">
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+              <li class="site-list__item">
+                <a href="#">О сервисе</a>
+              </li>
+              <li class="site-list__item">
+                <a href="#">Направления</a>
+              </li>
+              <li class="site-list__item">
+                <a href="#">Попутчики</a>
+              </li>
+            </ul>
+            <ul class="main-nav__list user-list user-list--top">
+              <li class="user-list__item">
+                <a class="user-list__feedback" href="#">
+                  <span class="visually-hidden">Обратная связь</span>
+                </a>
+              </li>
+              <li class="user-list__item">
+                <a class="user-list__mailing" href="#">
+                  <span class="visually-hidden">Рассылка</span>
+                </a>
+              </li>
+              <li class="user-list__item">
+                <a class="user-list__login" href="#">Авторизация</a>
+              </li>
+            </ul>
+          </div>
+          <button aria-label="Переключатель меню" class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">Сервис поиска попутчиков «Погнали?»</h1>
+      <section class="promo">
+        <div class="promo__wrapper">
+          <header class="promo__header">
+            <h2 class="visually-hidden">Промо-материал</h2>
+            <p class="promo__tagline">В путешествие с крутыми попутчиками!</p>
+          </header>
+          <ul class="main-nav__list user-list user-list--bottom">
+            <li class="user-list__item">
+              <a class="user-list__feedback" href="#">
+                <span class="visually-hidden">Обратная связь</span>
+              </a>
+            </li>
+            <li class="user-list__item">
+              <a class="user-list__mailing" href="#">
+                <span class="visually-hidden">Рассылка</span>
+              </a>
+            </li>
+            <li class="user-list__item">
+              <a class="user-list__login" href="#">Авторизация</a>
+            </li>
+          </ul>
+          <div class="promo__review">
+            <blockquote class="promo__quote">«Лучшее приложение, что я видел в жизни!»</blockquote>
+            <p class="promo__author">Мурат Эльтазин главный редактор газеты «гаджетлайф»</p>
+          </div>
+          <div class="promo__guide">
+            <ul class="promo__list">
+              <li class="promo__item">
+                <p class="promo__hint">Выберите направление</p>
+                <p class="promo__hint-number">1</p>
+              </li>
+              <li class="promo__item">
+                <p class="promo__hint">Изучите идеи путешественников</p>
+                <p class="promo__hint-number">2</p>
+              </li>
+              <li class="promo__item">
+                <p class="promo__hint">Находите тех, кто похож на вас</p>
+                <p class="promo__hint-number">3</p>
+              </li>
+              <li class="promo__item">
+                <p class="promo__hint">Путешествуйте вместе!</p>
+                <p class="promo__hint-number">4</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__wrapper">
+          <h2 class="section-header">О сервисе</h2>
+          <p class="section-description">Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих. </p>
+          <p class="section-push">А если найдете кого-то близкого по духу — скорее зовите в совместный трип!</p>
+        </div>
+      </section>
+      <section class="countries">
+        <div class="countries__wrapper">
+          <h2 class="section-header">Направления</h2>
+          <p class="section-description">Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться. </p>
+          <ul class="countries__list">
+            <li class="countries__item">
+              <img src="https://via.placeholder.com/270x110" width="270" height="110" alt="Изображение страны Тайланд">
+              <div class="countries__information countries__information-thailand">
+                <a class="countries__name" href="#">Таиланд</p>
+                <p class="countries__description">Джунгли зовут!</p>
+                <p class="countries__users">18321</p>
+              </div>
+            </li>
+            <li class="countries__item">
+              <img src="https://via.placeholder.com/270x110" width="270" height="110" alt="Изображение страны Франция">
+              <div class="countries__information countries__information-france">
+                <a class="countries__name" href="#">Франция</p>
+                <p class="countries__description">Трэ бьен, манифик!</p>
+                <p class="countries__users">12518</p>
+              </div>
+            </li>
+            <li class="countries__item">
+              <img src="https://via.placeholder.com/270x110" width="270" height="110" alt="Изображение страны Чехия">
+              <div class="countries__information countries__information-czech">
+                <a class="countries__name" href="#">Чехия</ф>
+                <p class="countries__description">Закоулки старой Европы</p>
+                <p class="countries__users">5326</p>
+              </div>
+            </li>
+          </ul>
+          <a href="catalog.html" class="button countries__button">Показать все</a>
+        </div>
+      </section>
+      <section class="users">
+        <div class="users__wrapper">
+          <h2 class="section-header">Попутчики</h2>
+          <p class="section-description">Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга. </p>
+          <p class="section-push">Теперь можно легко найти единомышленников!</p>
+          <ul class="users__list">
+            <li class="users__item">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+            </li>
+            <li class="users__item">
 
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
