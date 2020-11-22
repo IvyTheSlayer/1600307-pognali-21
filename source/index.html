@@ -141,14 +141,157 @@
           <p class="section-push">Теперь можно легко найти единомышленников!</p>
           <ul class="users__list">
             <li class="users__item">
-
+              <img class="users__photo" src="https://via.placeholder.com/270x270" width="270" height="270" alt="Изображения пользователя Таня Фирсова">
+              <div class="users__information">
+                <ul class="users__countries">
+                  <li class="users__countries-item">
+                    <img class="users__flag" src="https://via.placeholder.com/35x25" width="35" height="25" alt="Изображение флага Шри-Ланка">
+                  </li>
+                  <li class="users__countries-item">
+                    <img class="users__flag" src="https://via.placeholder.com/35x25" width="35" height="25" alt="Изображение флага Тайланда">
+                  </li>
+                  <li class="users__countries-item">
+                    <img class="users__flag" src="https://via.placeholder.com/35x25" width="35" height="25" alt="Изображение флага Сешейлы">
+                  </li>
+                </ul>
+                <p class="users__name">Таня Фирсова</p>
+                <p class="users__hashtags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+                <ul class="users__movement">
+                  <li class="users__movement-item">
+                    <span class="visually-hidden users__movement--active">Самолет</span>
+                  </li>
+                  <li class="users__movement-item">
+                    <span class="visually-hidden">Автобус</span>
+                  </li>
+                  <li class="users__movement-item">
+                    <span class="visually-hidden">Велосипед</span>
+                  </li>
+                  <li class="users__movement-item">
+                    <span class="visually-hidden">Пешком</span>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="users__item">
-
+              <li class="users__item">
+                <img class="users__photo" src="https://via.placeholder.com/270x270" width="270" height="270" alt="Изображения пользователя Таня Фирсова">
+                <div class="users__information">
+                  <ul class="users__countries">
+                    <li class="users__countries-item">
+                      <img class="users__flag" src="https://via.placeholder.com/35x25" width="35" height="25" alt="Изображение флага Бельгии">
+                    </li>
+                    <li class="users__countries-item">
+                      <img class="users__flag" src="https://via.placeholder.com/35x25" width="35" height="25" alt="Изображение флага Чехии">
+                    </li>
+                  </ul>
+                  <p class="users__name">Петя Демин</p>
+                  <p class="users__hashtags">#бургер #бар #футбол #концерт #крафт</p>
+                  <ul class="users__movement">
+                    <li class="users__movement-item">
+                      <span class="visually-hidden users__movement--active">Самолет</span>
+                    </li>
+                    <li class="users__movement-item">
+                      <span class="visually-hidden users__movement--active">Автобус</span>
+                    </li>
+                    <li class="users__movement-item">
+                      <span class="visually-hidden">Велосипед</span>
+                    </li>
+                    <li class="users__movement-item">
+                      <span class="visually-hidden users__movement--active">Пешком</span>
+                    </li>
+                  </ul>
+                </div>
+            </li>
+          </ul>
+          <a href="catalog.html" class="button users__button">Показать все</a>
+        </div>
+      </section>
+      <section class="profile">
+        <div class="profile__wrapper">
+          <h2 class="section__header profile__header">Добавьте свой профиль</h2>
+          <ul class="profile__list">
+            <li class="profile__item">
+              <div class="profile__service">
+                <p class="profile__service-description">Базовое размещение</p>
+                <p class="profile__service-description">Бесплатно</p>
+              </div>
+              <p class="profile__service-number">1</p>
+            </li>
+            <li class="profile__item">
+              <div class="profile__service">
+                <p class="profile__service-description">Вывод на первых позициях</p>
+                <p class="profile__service-description">99 руб./мес</p>
+              </div>
+              <p class="profile__service-number">2</p>
+            </li>
+            <li class="profile__item">
+              <div class="profile__service">
+                <p class="profile__service-description">Кастомный цвет карточки</p>
+                <p class="profile__service-description">59 руб./мес</p>
+              </div>
+              <p class="profile__service-number">3</p>
+            </li>
+          </ul>
+          <span class="visually-hidden profile__tariff--icon">Человечек</span>
+          <p class="profile__tariff">Показать тарифы для бизнеса</p>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="feedback__wrapper">
+          <h2 class="section__header">Заинтересовались?</h2>
+          <p class="section_description">Зарегистрируйтесь, это быстро и бесплатно! Уже зарегистрированы? Тогда скорее <a href="#">авторизуйтесь</a>.</p>
+          <form action="echo.htmlacademy.ru" method="GET">
+            <label class="visually-hidden" for="feedback-email">Поле для ввода email</label>
+            <input class="feedback__input" type="email" id="feedback-email" name="email" placeholder="E-mail">
+            <button class="feedback__submit" type="submit">
+              <span class="visually-hidden">Отправить форму email</span>
+            </button>
+          </form>
+          <p class="section_description">Остались вопросы? Мы с радостью на них ответим!</p>
+          <ul class="feedback__list">
+            <li class="feedback__item">
+              <span class="visually_hidden feedback__item--phone">Телефон</span>
+              <a class="feedback__contact" href="tel:88005558628">8 800 555-86-28</a>
+            </li>
+            <li class="feedback__item">
+              <span class="visually_hidden feedback__item--email">E-mail</span>
+              <p class="feedback__contact">mail@htmlacademy.ru</p>
             </li>
           </ul>
         </div>
       </section>
+      <section class="address">
+        <div class="address__wrapper">
+          <span class="visually_hidden address__pin">E-mail</span>
+          <p class="address__street">ул. Большая Конюшенная, 19/8</p>
+          <a href="#" class="address__build-route">Проложить маршрут</a>
+        </div>
+      </section>
+      <section class="map">
+        <!-- тут будет карта -->
+        <h2 class="visually-hidden">Карта</h2>
+      </section>
     </main>
+    <footer class="page-footer">
+      <div class="footer__wrapper">
+        <div class="footer__links">
+          <img src="img/logo_mobile_2.svg" alt="Логотип «Погнали?»" width="96" height="15">
+          <ul class="footer__social-list">
+            <li class="footer__social">
+              <span class="visually-hidden footer_fb">Facebook</span>
+            </li>
+            <li class="footer__social">
+              <span class="visually-hidden footer_vk">VK</span>
+            </li>
+            <li class="footer__social">
+              <span class="visually-hidden footer__instagram">Instagram</span>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__credits"></div>
+        <p class="footer__credits-text">Разработано</p>
+        <img src="img/htmlacademy.svg" alt="Логотип HTML Academy" width="27" height="33" class="footer__credits-logo">
+      </div>
+    </footer>
   </body>
 </html>
